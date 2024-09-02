@@ -55,6 +55,7 @@ int main() {
                 SetSpeed(0.f,0.f);
                 break;
         }
+        pc.printf("%c\r\n",c);
         ThisThread::sleep_for(10);
     }
 }
